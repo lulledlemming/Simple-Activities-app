@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IntentActivity">
+
+    <Button
+        android:id="@+id/btnSms"
+        android:layout_width="0dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginLeft="104dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginRight="104dp"
+        android:backgroundTint="@color/colorAccent"
+        android:padding="12dp"
+        android:text="Sms"
+        android:textColor="#212121"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.048" />
+
+    <Button
+        android:id="@+id/btnStk"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginLeft="104dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginRight="104dp"
+        android:backgroundTint="@color/colorAccent"
+        android:padding="12dp"
+        android:text="STK"
+        android:textColor="#212121"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.187" />
+
+    <Button
+        android:id="@+id/btnEmail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginLeft="104dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginRight="104dp"
+        android:backgroundTint="@color/colorAccent"
+        android:padding="12dp"
+        android:text="email"
+        android:textColor="#212121"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.284" />
+
+    <Button
+        android:id="@+id/btnShare"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginLeft="104dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginRight="104dp"
+        android:backgroundTint="@color/colorAccent"
+        android:padding="12dp"
+        android:text="share"
+        android:textColor="#212121"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.385" />
+
+<!--    <Button-->
+<!--        android:id="@+id/btnDial"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="104dp"-->
+<!--        android:layout_marginLeft="104dp"-->
+<!--        android:layout_marginEnd="104dp"-->
+<!--        android:layout_marginRight="104dp"-->
+<!--        android:backgroundTint="@color/colorAccent"-->
+<!--        android:padding="12dp"-->
+<!--        android:text="dial"-->
+<!--        android:textColor="#212121"-->
+<!--        android:textSize="17dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.498"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.499" />-->
+
+    <Button
+        android:id="@+id/btnCall"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginLeft="104dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginRight="104dp"
+        android:backgroundTint="@color/colorAccent"
+        android:padding="12dp"
+        android:text="call"
+        android:textColor="#212121"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.528" />
+
+    <Button
+        android:id="@+id/btnCam"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginLeft="104dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginRight="104dp"
+        android:backgroundTint="@color/colorAccent"
+        android:padding="12dp"
+        android:text="camera"
+        android:textColor="#212121"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.773" />
+
+<!--    <EditText-->
+<!--        android:id="@+id/edt_phone"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:autofillHints=""-->
+<!--        android:ems="10"-->
+<!--        android:hint="Enter phone number"-->
+<!--        android:inputType="phone"-->
+<!--        android:minHeight="48dp"-->
+<!--        android:textColorHint="#757575"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.497"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.915" />-->
+</androidx.constraintlayout.widget.ConstraintLayout>
